@@ -1,0 +1,56 @@
+#+TITLE: {{cookiecutter.title}}
+#+AUTHOR: {{cookiecutter.author}}
+#+EMAIL: {{cookiecutter.email}}
+
+#+LANGUAGE: en
+#+KEYWORDS: org,reveal
+#+DESCRIPTION: write a headline
+
+#+REVEAL_HLEVEL: 9
+#+REVEAL_TRANS: slide
+#+REVEAL_THEME: white
+
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: %r/lib/css/monokai.css
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+
+* First slide
+
+- /unordered/
+- list of items
+
+#+begin_quote
+Some quote
+#+end_quote
+
+* Second slide
+
+1. *ordered*
+2. list of items
+
+${n! \over k!(n-k)!} = {n \choose k}$
+
+* Third slide
+
+- description ::
+    of some items
+
+#+begin_example
+Some example
+#+end_example
+
+* Fourth slide
+
+[[http://orgmode.org/][Org mode Web site]].
+
+#+begin_src python
+print("Hello world")
+#+end_src
+
+* Fifth slide
+
+[[file:images/org.jpg]]
+
+#+BEGIN_NOTES
+  Enter speaker notes here.
+#+END_NOTES
